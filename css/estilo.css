@@ -1,0 +1,85 @@
+h1 {
+    color: rgb(199, 181, 219);
+    border: 0.3rem dotted rgb(180, 200, 218);
+}
+h2,h3,h4,h5,h6 {
+    display: none;
+}
+body ul li{
+    color:rgb(206, 186, 231);
+}
+p {
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 1rem;
+    word-spacing: 2rem;
+    color: rgb(153, 87, 228);
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(255, 255, 255),0 0 1rem rgb(76, 107, 30), 0 0 2rem purple;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: pink;
+}
+a:hover {
+    color:brown;
+    }
+    footer {
+    clear: both;
+    background: #f8caca url("amity.jpeg") no-repeat left bottom;
+    height:1rem;
+}
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: violet;
+    color: rgb(165, 202, 202);
+    border: 0.2rem solid white;
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+  h1#page1 {
+    color: purple;
+    border: 0.2rem dashed rgb(221, 147, 221);
+  }
+  img{
+    width: 18rem;
+  }
+  ul {
+    list-style-type:square;
+  }
+  h1.page2 {
+    color: rgb(85, 122, 155);
+    border: 0.9rem groove rgb(161, 161, 187);
+    border-radius: 0.6rem;
+  }
+  ol{
+    list-style-type: upper-roman;
+  }
+  section img {
+    float:left;
+  }
+  main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem
+  }
+  main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+  }
+  main.flexbox article{
+    background-color: rgb(143, 119, 156);
+    margin: 1rem;
+    padding: 0.6;
+  }
